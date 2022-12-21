@@ -1,0 +1,247 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.flexbox-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-end;
+}
+.body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  max-width: 1100px;
+  margin: 0px;
+}
+
+.flexbox-item- {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.flexbox-item-1 {
+  flex: 1 0 0;
+  min-height: 100px;
+  flex-shrink: 0;
+  align-self: flex-end;
+}
+/* .container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: flex-start;
+} */
+
+/* .flex-row-container-2 {
+  display: flex;
+  flex-wrap: inherit;
+  justify-content: center;
+  max-width: 33%;
+  padding: 10px;
+  margin: 10px;
+} */
+/* .items-1 {
+  display: flex;
+}
+.items-2 {
+  display: flex;
+}
+
+.items-3 {
+  display: flex;
+}
+
+.items-4 {
+  display: flex;
+}
+.items-5 {
+  display: flex;
+}
+.items-6 {
+  display: flex;
+} */
+
+*/ #main-header {
+  position: relative;
+  width: 1920px;
+  height: 36px;
+  background-color: rgb(247, 247, 247);
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.navbar {
+  position: relative;
+  transform: translate(12%, 40%);
+  left: 2.5%;
+  right: 557px;
+  height: 20px;
+  background: #f4f4f4;
+  margin-bottom: 0px;
+}
+.topnav {
+  position: relative;
+  left: -70px; /* när detta värde ändras påverkas placeringen av nike loggan!*/
+  display: flexbox;
+  font-weight: 500;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.h2 {
+  background-color: rgb(247, 247, 247);
+  margin-bottom: 40px;
+  width: 1920px;
+  height: 60px;
+}
+
+.logo {
+  position: absolute;
+  top: -238%;
+  left: 5.85%;
+  right: 600px;
+  height: 70px;
+  width: 70px;
+  fill: rgb(17, 17, 17);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.table {
+  margin-left: 308px;
+  margin-right: 48px;
+}
+
+/* img {
+  max-width: 100%;
+  max-height: auto;
+} */
+
+.active {
+  position: relative;
+  height: 60px;
+  width: 100%;
+  color: #111;
+  text-decoration: none;
+  text-align: center;
+  top: -22px; /* LÖSNING:texten flyttades uppåt av detta och stannade inte var inte kvar vid header linjen.  */
+  left: 42%;
+  padding-left: 12px;
+  padding-right: 12px; /* padding fixade mellanrum mellan kategorierna (nyheter, männ, kvinnor osv) */
+}
+
+/* .column {
+  margin-bottom: 260px;
+  margin-right: 15px;
+  height: 452px; /* När height var på auto so blev bild 3 1px för liten jämnfört med de övrig.
+  display: block;
+  text-align: left;
+}  */
+
+/* Texten ser inte ut som på nike, kan det vara att min sida är mer inzoomad? */
+.product-card {
+  font-weight: bold;
+  line-height: 1.75;
+}
+
+.product-card_title {
+  font-weight: bold;
+  font-size: 16;
+  line-height: 1.75;
+}
+
+.product-card_subtitle {
+  font-weight: 400;
+  color: gray; /* inte rätt grå */
+  line-height: 1.75;
+}
+.product-card_colors {
+  font-weight: 400;
+  color: gray; /* inte rätt grå */
+  line-height: 1.75;
+}
+
+.product-card-price {
+  font-weight: 500;
+}
+
+.title-offer {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-46%, -576%);
+  font-size: 32px;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.t-offer {
+  position: relative;
+  width: auto;
+  font-size: 16.5px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-46%, -1170%);
+}
+
+.button {
+  font-size: 14px;
+  position: relative;
+  top: 57%;
+  left: -2%;
+  transform: translate(35%, -1700%);
+  align-items: center;
+  width: 48px;
+  border-radius: 28px;
+  background-color: #111;
+  color: #ffff;
+  text-align: center;
+  padding: 6px 20px;
+}
+
+/* .kop2 {
+  margin-bottom: -46px; /* låg inte i linje med andra bilden tills detta ändrades
+  margin-top: 64px;
+  margin-right: 15px;
+  padding-top: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+} */
+
+/* .first {
+  width: 50%;
+  height: 50%;
+  aspect-ratio: 1280 / 720;
+}
+
+.second {
+  width: 50%;
+  height: 50%;
+  aspect-ratio: 1280 / 720;
+}
+
+.third {
+  width: 50%;
+  height: 50%;
+  aspect-ratio: 1280 / 720;
+}
+
+.forth {
+  width: 50%;
+  height: 50%;
+  aspect-ratio: 1280 / 720;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.fifth {
+  width: 50%;
+  height: 50%;
+  aspect-ratio: 1280 / 720;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+} */
