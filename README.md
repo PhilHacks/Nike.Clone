@@ -4,7 +4,7 @@
 
 **Project Name:** Nike Clone
 
-**Description:** This project is a front-end clone of Nike's official website. It demonstrates my capabilities in front-end web development, showcasing a layout similar to the Nike store with functionality that highlights the latest sneaker trends and collections.
+**Description:** This project is a front-end clone of Nike's official website. It demonstrates my capabilities in front-end web development, showcasing a layout similar to the Nike store.
 
 ## Installation and Setup
 
@@ -24,9 +24,6 @@
 
 - **Homepage:** A replica of Nike's homepage featuring product cards.
 - **Product Cards:** Displaying product information with styling.
-
-### Usage Examples
-
 
 ## Project Structure
 
